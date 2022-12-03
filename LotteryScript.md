@@ -24,10 +24,10 @@ do
     else
 
         if [[ $tries > 1 ]]; then
-            echo -e "${NOR}it took ${PURPLE}$tries${NC} tries to get the lottery${NC}"
+            echo -e $"${NOR}it took ${PURPLE}$tries${NC} tries to get the rare ${LOT}${NC}.${NC}"
             break
         else
-            echo -e "${NOR}it took ${PURPLE}$tries${NC} try to get the lottery${NC}"
+            echo -e $"${NOR}it took ${PURPLE}$tries${NC} try to get the rare ${LOT}${NC}.${NC}"
             break
         fi
     fi
